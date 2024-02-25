@@ -1,0 +1,277 @@
+footer {
+    width: 100%;
+}
+
+
+.footerTop {
+    width: 100%;
+    padding: 50px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f2f5ff;
+}
+
+
+.footopLeft {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.footopLeft i {
+    font-size: 45px;
+    margin-right: 30px;
+}
+
+.txter h2 {
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+
+.txter p {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.footopLRigh {
+    width: 50%;
+}
+
+
+.footopLRigh form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.footopLRigh form input {
+    width: 70%;
+    height: 50px;
+    border: none;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+
+.footopLRigh form input:focus {
+    outline: none;
+}
+
+
+.footopLRigh form button {
+    width: 30%;
+    height: 50px;
+    border: none;
+    background-color: #121f47;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+
+.footerBtm {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 0px 150px;
+}
+
+
+.footBtmTop {
+    padding: 80px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.firstul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+
+.firstul li {
+    list-style: none;
+    margin: 0px 5px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: skyblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+
+.firstul li:nth-child(1) {
+    background-color: #4444c9;
+}
+
+.firstul li:nth-child(2) {
+    background-color: skyblue;
+}
+
+.firstul li:nth-child(3) {
+    background-color: #7c9adb;
+}
+
+.firstul li:nth-child(4) {
+    background-color: #f87087;
+}
+
+.firstul li:nth-child(5) {
+    background-color: #f82c2c;
+}
+
+
+.firstul li:hover {
+    background-color: #121f47;
+}
+
+
+
+.secondul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondul li {
+    list-style: none;
+    margin: 0px 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+.footBtmBtm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #8f8f8f;
+    padding: 15px 0px;
+}
+.footBtmBtm p {
+    color: #fff;
+}
+
+
+.mannys {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mannys img {
+    margin: 0px 2px;
+}
+
+@media(max-width:1200px) {
+    .footerTop {
+        padding: 50px;
+    }
+
+    .footerBtm {
+        padding: 0px 50px;
+    }
+}
+
+
+
+
+@media(max-width:1100px) {
+    .footerTop {
+        padding: 50px 10px;
+    }
+
+    .footerBtm {
+        padding: 0px 10px;
+    }
+}
+
+
+
+@media(max-width:800px) {
+    .footerTop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footopLeft {
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footopLRigh {
+        width: 100%;
+    }
+
+    .secondul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+
+    .secondul li {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media(max-width:700px) {
+    .footBtmBtm {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding: 30px 0px;
+    }
+
+
+    .mannys {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width:400px) {
+    .footopLeft {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footopLeft i {
+        font-size: 45px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .footBtmBtm p {
+        text-align: center;
+    }
+}

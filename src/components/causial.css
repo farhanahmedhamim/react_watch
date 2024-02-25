@@ -1,0 +1,158 @@
+.causial {
+    width: 100%;
+    padding: 0px 150px;
+}
+
+
+.cusialTop {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.cusialTop h1 {
+    font-size: 33px;
+    color: #11112f;
+    width: fit-content;
+    position: relative;
+}
+
+.cusialTop h1::after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 30px;
+    background-color: #11112f;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.singlcausial:hover .list {
+    opacity: 1;
+}
+
+.list {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    opacity: 0;
+    transition: .5s;
+    z-index: 100;
+}
+
+.list li {
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 0px 10px 1px #dfdfdf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 15px 0px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.list li:hover {
+    background-color: #11112f;
+    color: white;
+}
+
+.causialBtm .swiper-pointer-events {
+    padding: 10px !important;
+}
+
+
+.causialBtm {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.singlcausial {
+    width: 100%;
+}
+
+.singlcausial:hover .singcusitop {
+    box-shadow: 0px 0px 10px 1px #dfdfdf;
+}
+
+.singcusitop {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    transition: .5s;
+}
+
+.opacone {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: .5s;
+}
+
+.singlcausial:hover .opacone {
+    opacity: 0;
+    z-index: -1;
+}
+
+.opactow {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0;
+    z-index: -1;
+    transition: .5s;
+}
+
+.singlcausial:hover .opactow {
+    opacity: 1;
+    z-index: 10;
+}
+
+
+
+.singcusibtm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+
+.singcusibtm p {
+    font-size: 18px;
+}
+
+.singcusibtm span {
+    display: block;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+
+
+.iconnnis i {
+    color: gold;
+    margin: 0px 3px;
+}
+
+
+@media(max-width:1200px) {
+    .causial {
+        padding: 0px 50px;
+    }
+}
+
+@media(max-width:1100px) {
+    .causial {
+        padding: 0px 10px;
+    }
+}
